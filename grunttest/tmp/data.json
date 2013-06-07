@@ -1,0 +1,70 @@
+{
+    "project": {
+        "name": "Grunt Test",
+        "description": "Grunt Test Description",
+        "version": "1.2.1",
+        "url": "http://test.com/"
+    },
+    "files": {
+        "src/yuidoc.js": {
+            "name": "src/yuidoc.js",
+            "modules": {
+                "App": 1
+            },
+            "classes": {
+                "Global": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        }
+    },
+    "modules": {
+        "App": {
+            "name": "App",
+            "submodules": {},
+            "classes": {
+                "Global": 1
+            },
+            "fors": {},
+            "namespaces": {},
+            "tag": "module",
+            "file": "src/yuidoc.js",
+            "line": 1,
+            "static": 1
+        }
+    },
+    "classes": {
+        "Global": {
+            "name": "Global",
+            "shortname": "Global",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "App",
+            "namespace": "",
+            "file": "src/yuidoc.js",
+            "line": 1
+        }
+    },
+    "classitems": [
+        {
+            "file": "src/yuidoc.js",
+            "line": 13,
+            "description": "This is a sample method.",
+            "itemtype": "method",
+            "name": "App.Global.init",
+            "params": [
+                {
+                    "name": "foo",
+                    "description": "A sample parameter.",
+                    "type": "String"
+                }
+            ],
+            "class": "Global",
+            "module": "App"
+        }
+    ],
+    "warnings": []
+}
